@@ -4,7 +4,7 @@
 <!--begin::Login Sign in form-->
 <div class="login-signin">
   <div class="mb-20">
-    <h1 class="text-4xl">Welcome to Laravuetonic</h1>
+    <h1 class="text-4xl">Welcome to Metronic</h1>
     <p class="opacity-60 ">Building your apps with Laravel, Vue, and Metronic Themes</p>
   </div>
 
