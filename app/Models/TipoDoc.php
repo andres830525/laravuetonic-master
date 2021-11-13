@@ -7,5 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class TipoDoc extends Model
 {
+    protected $table = 'tipo_docs';
+
+    protected $fillable = [
+    'nombre',
+
+];
     use HasFactory;
+
+    public function tipodoc()
+{
+    return $this->hasOne('App\Documento', 'tipodoc_id', 'id');
+}
 }
